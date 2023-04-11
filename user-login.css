@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.subbody {
+    background: linear-gradient(blue, pink);
+}
+
+.login {
+    color: black;
+    padding-top: 7%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    height: 30%;
+    padding: auto;
+    margin: auto;
+    text-align: centre;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.Username {
+    margin-top: 50px;
+    padding: 10px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+}
+.Password {
+    margin-top: 30px;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+}
+.button {
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    font-weight: 400;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 46%;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 10px;
+
+}
+.register{
+    /* padding: auto;
+    margin: auto; */
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 9%;
+}
